@@ -19,3 +19,4 @@ const src = babelResult.code
 jsdom({
   html, src, url
 });
+const { updateEmployeeWithKeyAndValue, destructivelyUpdateEmployeeWithKeyAndValue, deleteFromEmployeeByKey, destructivelyDeleteFromEmployeeByKey } = require('./helpers');
